@@ -154,7 +154,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <div className="font-semibold text-gray-900 text-lg">Email</div>
-                  <div className="text-gray-600">prabinthakur33@gmail.com</div>
+                  <div className="text-gray-600">prabinthakur0101@gmail.com</div>
                 </div>
               </div>
 
@@ -164,7 +164,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <div className="font-semibold text-gray-900 text-lg">GitHub</div>
-                  <div className="text-gray-600">@prabincankod</div>
+                  <div className="text-gray-600">@curious-builder</div>
                 </div>
               </div>
 
@@ -174,7 +174,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <div className="font-semibold text-gray-900 text-lg">LinkedIn</div>
-                  <div className="text-gray-600">Software Developer</div>
+                  <div className="text-gray-600">Student Builder</div>
                 </div>
               </div>
             </div>
