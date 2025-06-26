@@ -22,20 +22,23 @@ export default function Hero() {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div className="space-y-8">
             <div className="space-y-6">
-              <h1 className="text-6xl lg:text-8xl font-serif font-bold text-gray-900 leading-tight tracking-tight">
+              <h1 className="text-5xl lg:text-7xl font-serif font-bold text-gray-800 leading-tight tracking-tight">
                 {heroContent?.title ? (
                   <>
                     {heroContent.title.split(' ').slice(0, 2).join(' ')}<br />
                     <span className="text-terracotta italic">{heroContent.title.split(' ').slice(2).join(' ')}</span>
                   </>
                 ) : (
-                  <>
-                    A curious<br />
-                    <span className="text-terracotta italic">builder-learner</span>
-                  </>
+                    <>
+                        A curious<br />
+                    <span className="text-terracotta italic">    Builder-learner</span>
+                    </>
                 )}
               </h1>
-              <p className="text-2xl text-gray-700 leading-relaxed max-w-lg">
+              <p className="inline-block bg-sage/30 text-sage-900 dark:text-sage-100 px-4 py-2 rounded-xl font-semibold text-1.9xl shadow-sm border border-sage/40">
+                Prabin Thakur
+              </p>
+              <p className="text-1.9xl text-gray-800 leading-relaxed max-w-lg">
                 {heroContent?.description || "19 | DS undergrad | Diving into AI/ML, Code & startups | learning-failing-building software."}
               </p>
             </div>
@@ -84,7 +87,7 @@ export default function Hero() {
               console.log("hello world!");
             </div>
             <div className="absolute -bottom-4 -left-4 bg-terracotta text-white px-4 py-2 rounded-full font-mono text-sm font-semibold shadow-lg">
-              npm install curiosity
+              git clone curiosity
             </div>
           </div>
         </div>

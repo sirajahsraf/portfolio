@@ -9,18 +9,24 @@ export default function About() {
             <h2 className="text-7xl font-serif font-bold text-warm-yellow mb-8 leading-tight">
               My approach
             </h2>
-            <p className="text-xl text-cream max-w-2xl">
+            <p className="text-3xl text-blue max-w-2xl">
               I believe the best way to master technology is by building real
-              solutions to real problems. Every project teaches me something new,
-              every bug teaches me patience, and every success fuels my curiosity
-              for the next challenge.
+              solutions to real problems. 
             </p>
-            <p className="text-xl text-cream max-w-2xl">
-              Currently exploring the intersection of AI/ML and web development,
-              creating tools that make complex data accessible and meaningful. I'm
-              particularly drawn to projects that have social impact and push the
-              boundaries of what's possible.
-            </p>
+                    <div className="text-xl text-cream max-w-2xl">
+                        <p>
+                          Awaiting AGI but
+                          Currently straching my head over these.
+                        </p>
+                         </div>
+            <ul className="text-xl text-cream max-w-1.7xl list-disc pl-5 space-y-2">
+              <li> AI inference & training</li>
+              <li> Experimenting with agentic AI</li>
+              <li> Building GenAI tools</li>
+              <li> Workflow automation</li>
+              <li> Content creation casually </li>
+              <li> rapid prototyping stuffs </li>
+            </ul>
             <div className="grid grid-cols-2 gap-8 pt-8">
               <div>
                 <div className="text-5xl font-bold text-warm-yellow">2+</div>

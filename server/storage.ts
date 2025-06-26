@@ -54,8 +54,8 @@ export class MemStorage implements IStorage {
     this.portfolioContent.set('hero', {
       id: 1,
       section: 'hero',
-      title: 'A curious builder-learner',
-      description: '19 | DS undergrad | Diving into AI/ML, Code & startups | learning-failing-building software.',
+      title: 'A curious Builder-learner',
+      description: '19 | DS undergrad | Diving into AI/ML, Code & startups |\n learning-failing-building software.',
       content: null,
       imageUrl: null,
       metadata: null,
@@ -192,7 +192,7 @@ export class MemStorage implements IStorage {
       title: project.title,
       description: project.description,
       imageUrl: project.imageUrl || null,
-      tags: project.tags || null,
+      tags: Array.isArray(project.tags) ? project.tags : project.tags ? [project.tags] : null,
       githubUrl: project.githubUrl || null,
       demoUrl: project.demoUrl || null,
       featured: project.featured ?? false,
@@ -212,6 +212,11 @@ export class MemStorage implements IStorage {
     const updated: Project = {
       ...existing,
       ...project,
+      tags: Array.isArray(project.tags)
+        ? project.tags
+        : project.tags
+        ? [project.tags]
+        : existing.tags,
       id, // Ensure id doesn't change
     };
     this.projects.set(id, updated);

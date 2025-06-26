@@ -118,7 +118,7 @@ export default function Admin() {
       title: formData.get('title') as string,
       description: formData.get('description') as string,
       imageUrl: formData.get('imageUrl') as string || null,
-      tags,
+      tags: tags.join(','), // Convert array to comma-separated string
       githubUrl: formData.get('githubUrl') as string || null,
       demoUrl: formData.get('demoUrl') as string || null,
       featured: formData.get('featured') === 'on',

@@ -164,7 +164,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <div className="font-semibold text-gray-900 text-lg">GitHub</div>
-                  <div className="text-gray-600">@curious-builder</div>
+                  <div className="text-gray-600">@pluto-111</div>
                 </div>
               </div>
 
@@ -174,16 +174,26 @@ export default function Contact() {
                 </div>
                 <div>
                   <div className="font-semibold text-gray-900 text-lg">LinkedIn</div>
-                  <div className="text-gray-600">Student Builder</div>
+                  <div className="text-gray-600">Prabin Thakur</div>
+                </div>
+              </div>
+
+              <div className="flex items-center space-x-4">
+                <div className="w-14 h-14 rounded-2xl flex items-center justify-center" style={{ backgroundColor: "#8BA0AF" }}>
+                  <Twitter className="w-7 h-7 text-white" />
+                </div>
+                <div>
+                  <div className="font-semibold text-gray-900 text-lg">X (Twitter) </div>
+                  <div className="text-gray-600">@Prab1n_</div>
                 </div>
               </div>
             </div>
 
             <div className="bg-white/60 backdrop-blur-sm rounded-3xl p-8">
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">Quick Response Promise</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">Mostly online,tho usually Respond Late</h3>
               <p className="text-gray-700 leading-relaxed">
-                I typically respond within 24 hours. If it's urgent or you have an exciting opportunity,
-                don't hesitate to reach out directly via email.
+                 typically respond before you take two cosecutive poops . If it's urgent or you want to donate 
+                 sent the hand-written letter  via a bird called email.
               </p>
             </div>
           </div>

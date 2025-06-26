@@ -12,6 +12,7 @@
     "skipLibCheck": true,
     "noImplicitAny": false,
     "allowImportingTsExtensions": true,
+    "noEmit": true,
     "moduleResolution": "bundler",
     "baseUrl": ".",
     "types": ["node", "vite/client"],

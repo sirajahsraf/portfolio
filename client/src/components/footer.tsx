@@ -27,10 +27,10 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
-          <p>&copy; 2024 Portfolio. Built with passion and curiosity.</p>
-          <div className="mt-2 text-sm font-mono opacity-60">
-            // Keep learning, keep building
-          </div>
+          <p>&copy; 2025 Portfolio. Built with passion and curiosity.</p>
+            <div className="mt-2 text-sm font-mono opacity-60 italic">
+            // yo! Gang,Keep learning,peace out ✌️
+            </div>
         </div>
       </div>
     </footer>
