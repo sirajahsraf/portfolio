@@ -36,10 +36,10 @@ export default function Hero() {
                 )}
               </h1>
               <p className="inline-block bg-sage/30 text-sage-900 dark:text-sage-100 px-4 py-2 rounded-xl font-semibold text-1.9xl shadow-sm border border-sage/40">
-                Prabin Thakur
+                Bio 
               </p>
               <p className="text-1.9xl text-gray-800 leading-relaxed max-w-lg">
-                {heroContent?.description || "19 | DS undergrad | Diving into AI/ML, Code & startups | learning-failing-building software."}
+                {heroContent?.description || "20 | Data Science undergrad | Diving into AI/ML, Code & startups | learning-failing-building software."}
               </p>
             </div>
 
